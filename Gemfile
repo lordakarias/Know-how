@@ -4,7 +4,6 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 # Use mysql as the database for Active Record
-gem 'mysql2'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -27,11 +26,30 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+gem 'rails-html-sanitizer'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
 
+group :development, :test do
+  gem 'mysql2'
+  gem 'byebug'
+  gem 'web-console'
+  gem 'spring'
+end
+
+group :test do
+  gem 'minitest-reporters'
+  gem 'mini_backtrace'
+  gem 'guard-minitest'
+end
+
+group :production do
+  gem 'pg',             '0.17.1'
+  gem 'rails_12factor', '0.0.2'
+end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
