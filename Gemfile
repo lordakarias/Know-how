@@ -1,17 +1,20 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails', '~> 4.2.0.beta2' # PENDING: [Rails 4.2] 
 gem 'mysql2'
-gem 'bcrypt-ruby', '~> 3.0.1'
-gem 'bootstrap-sass',       '3.2.0.0'
+
+gem 'bcrypt-ruby'
 gem 'faker',                '1.4.2'
+
+gem "tzinfo-data"
+gem 'bootstrap-sass',       '3.2.0.0'
 gem 'will_paginate',           '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
 # Use mysql as the database for Active Record
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails', '~> 5.0.0.beta1' # PENDING: [Rails 4.2] 
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -54,8 +57,6 @@ group :production do
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
   gem 'unicorn',        '4.8.3'
-
-
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
