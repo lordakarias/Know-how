@@ -3,11 +3,11 @@
 https://evening-springs-3608.herokuapp.com/login
 
 email : example-1@railstutorial.org
+
 password : password
 
 
 
-== README
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
