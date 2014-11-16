@@ -25,6 +25,7 @@ SampleApp::Application.routes.draw do
   resources :users
   resources :account_activations, only: [:edit]
   resources :password_resets,     only: [:new, :create, :edit, :update]
+  resources :microposts,          only: [:create, :destroy]
 
   #rails generate migration add_activation_to_users activation_digest:string activated:boolean activated_at:datetime
   # The priority is based upon order of creation: first created -> highest priority.
