@@ -1,4 +1,10 @@
-https://powerful-ocean-4574.herokuapp.com/login
+
+
+https://evening-springs-3608.herokuapp.com/login
+
+email : example-1@railstutorial.org
+password : password
+
 
 
 == README
@@ -24,8 +30,3 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
