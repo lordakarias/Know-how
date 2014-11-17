@@ -2,7 +2,7 @@
 
 https://evening-springs-3608.herokuapp.com/login
 
-email : example-1@railstutorial.org
+email : demo@demo.com
 
 password : password
 
