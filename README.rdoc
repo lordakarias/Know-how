@@ -1,13 +1,4 @@
+https://vitehow.herokuapp.com/
 
 
-https://micro-blog-tw.herokuapp.com/login
-
-email : demo@demo.com
-
-password : password
-
-
-
-
-Ruby on Rails Microblog app
 
